@@ -300,7 +300,7 @@ especifico y usar el nth-child(3) que solo va a la posicion en la cual esta el i
         margin: 0 0 0 10px;
     }
 
-    .caja, .princi, .mapa-contenido, .contenido-diferenciales,.video{
+    .caja, .princi, .mapa-contenido, .contenido-diferenciales,.video,.productos{
         width: auto;
     }
 
@@ -311,6 +311,15 @@ especifico y usar el nth-child(3) que solo va a la posicion en la cual esta el i
     .lista-diferenciales, .imagen-diferenciales{
         width: 100%;
         margin: 15px 0 15px 0;
+    }
+    .productos{
+        margin: -30px 0 -30px 0;
+    }
+    .productos li{
+        display: inline-block;        
+        width: 100%;    
+        margin: 10px 0 10px 0;
+        
     }
 }
     
